@@ -1,7 +1,7 @@
-# 🚀 Project test
+# 🚀 GenAI-Powered Data Profiling Solution for Banking Regulatory Reporting
 
 ## 📌 Table of Contents
-- [Introduction](#introduction)
+- [Problem Statment](#ProblemStatement)
 - [Demo](#demo)
 - [Inspiration](#inspiration)
 - [What It Does](#what-it-does)
@@ -13,8 +13,20 @@
 
 ---
 
-## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+## 🎯 Problem Statement
+Title: The Burden of Regulatory Compliance: A Real Challenge
+
+Storytelling:
+
+Imagine a bank’s compliance team in the middle of a regulatory reporting cycle. They're buried under mountains of spreadsheets, data files, and regulations.
+
+The clock is ticking. The team has to ensure that every piece of data submitted for regulatory reporting is accurate and compliant with the latest requirements.
+
+But here’s the catch: the regulations are constantly changing. New rules are added, existing ones are amended, and sometimes, the data that the team has doesn’t even match the format regulators require.
+
+Current Process: They painstakingly go through each data set, manually defining validation rules, cross-checking against regulations—hoping they don’t miss something critical.
+
+Pain Point: This process is time-consuming, error-prone, and ultimately, a huge bottleneck in the bank’s ability to remain compliant.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
