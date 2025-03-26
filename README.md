@@ -1,72 +1,75 @@
-# 🚀 GenAI-Powered Data Profiling Solution for Banking Regulatory Reporting
-
-## 📌 Table of Contents
-- [Problem Statment](#ProblemStatement)
-- [Demo](#demo)
-- [Inspiration](#inspiration)
-- [What It Does](#what-it-does)
-- [How We Built It](#how-we-built-it)
-- [Challenges We Faced](#challenges-we-faced)
-- [How to Run](#how-to-run)
-- [Tech Stack](#tech-stack)
-- [Team](#team)
-
+---
+title: Wf88
+emoji: 🦀
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: 1.43.2
+app_file: app.py
+pinned: false
+short_description: Anomaly Detection
 ---
 
-## 🎯 Problem Statement
-Title: The Burden of Regulatory Compliance: A Real Challenge
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
-Storytelling:
 
-Imagine a bank’s compliance team in the middle of a regulatory reporting cycle. They're buried under mountains of spreadsheets, data files, and regulations.
+# Streamlit Application using OpenAI API
 
-The clock is ticking. The team has to ensure that every piece of data submitted for regulatory reporting is accurate and compliant with the latest requirements.
+## Running the Streamlit App
+To start the Streamlit application, use the following command:
+```bash
+streamlit run app.py
+```
+This command will launch the application in your web browser.
 
-But here’s the catch: the regulations are constantly changing. New rules are added, existing ones are amended, and sometimes, the data that the team has doesn’t even match the format regulators require.
+## Configuration
 
-Current Process: They painstakingly go through each data set, manually defining validation rules, cross-checking against regulations—hoping they don’t miss something critical.
+### Setting the OpenAI API Key
+To use the OpenAI API, you must set your API key as an environment variable securely.
 
-Pain Point: This process is time-consuming, error-prone, and ultimately, a huge bottleneck in the bank’s ability to remain compliant.
+#### Windows:
+```bash
+set OPENAI_API_KEY="your_actual_openai_api_key"
+```
+* This sets the variable for the current command prompt session.
+* To make this setting permanent, add it to the Environment Variables in the System Properties.
 
-## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
+#### Linux/macOS:
+```bash
+export OPENAI_API_KEY="your_actual_openai_api_key"
+```
+* This sets the variable for the current terminal session.
+* For a persistent setting, add this line to your shell configuration file (e.g., `~/.bashrc`, `~/.zshrc`).
 
-![Screenshot 1](link-to-image)
+### Accessing the API Key in Code
+Your application can retrieve the API key using:
+```python
+import os
+api_key = os.environ.get("OPENAI_API_KEY")
+```
+**Important:** Never hardcode your API key in your application code for security reasons.
 
-## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+## [Optional Sections]
 
-## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+### Usage
+Provide detailed instructions on how to use the application's features, such as:
+- Input options
+- Generating responses using OpenAI API
+- Any UI features provided by Streamlit
 
-## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+### Contributing
+If you want others to contribute, specify:
+- How to fork the repository
+- Guidelines for submitting pull requests
+- Coding standards and best practices
 
-## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+### License
+Specify the project’s license (e.g., MIT, Apache 2.0).
 
-## 🏃 How to Run
-1. Clone the repository  
-   ```sh
-   git clone https://github.com/your-repo.git
-   ```
-2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
-3. Run the project  
-   ```sh
-   npm start  # or python app.py
-   ```
+### Support
+Provide details on how users can get help or report issues:
+- Create an issue on the GitHub repository
+- Contact the maintainer via email
 
-## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+This README ensures a clear and structured guide for users with varying levels of technical experience.
 
-## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
